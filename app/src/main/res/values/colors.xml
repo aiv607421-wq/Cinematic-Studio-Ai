@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cinematic Studio AI: premium dark workspace -->
+    <color name="studio_background">#0B0D10</color>
+    <color name="studio_surface">#14181D</color>
+    <color name="studio_accent">#E8B44A</color>
+    <color name="studio_status_bar">#080A0C</color>
+</resources>

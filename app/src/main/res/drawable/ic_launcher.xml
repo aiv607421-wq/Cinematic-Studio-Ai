@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher icon: dark film frame with sprocket holes and a play mark. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+
+    <!-- Background plate -->
+    <path
+        android:fillColor="#0B0D10"
+        android:pathData="M44,8 h104 a36,36 0 0 1 36,36 v104 a36,36 0 0 1 -36,36 h-104 a36,36 0 0 1 -36,-36 v-104 a36,36 0 0 1 36,-36 z" />
+
+    <!-- Film frame outline -->
+    <path
+        android:strokeColor="#E8B44A"
+        android:strokeWidth="7"
+        android:fillColor="#00000000"
+        android:pathData="M48,48 h96 a14,14 0 0 1 14,14 v68 a14,14 0 0 1 -14,14 h-96 a14,14 0 0 1 -14,-14 v-68 a14,14 0 0 1 14,-14 z" />
+
+    <!-- Sprocket holes, left column -->
+    <path android:fillColor="#E8B44A" android:pathData="M18,42 h13 v13 h-13 z" />
+    <path android:fillColor="#E8B44A" android:pathData="M18,76 h13 v13 h-13 z" />
+    <path android:fillColor="#E8B44A" android:pathData="M18,110 h13 v13 h-13 z" />
+    <path android:fillColor="#E8B44A" android:pathData="M18,144 h13 v13 h-13 z" />
+    <!-- Sprocket holes, right column -->
+    <path android:fillColor="#E8B44A" android:pathData="M161,42 h13 v13 h-13 z" />
+    <path android:fillColor="#E8B44A" android:pathData="M161,76 h13 v13 h-13 z" />
+    <path android:fillColor="#E8B44A" android:pathData="M161,110 h13 v13 h-13 z" />
+    <path android:fillColor="#E8B44A" android:pathData="M161,144 h13 v13 h-13 z" />
+
+    <!-- Play mark -->
+    <path
+        android:fillColor="#FFF3D6"
+        android:pathData="M76,58 L76,134 L134,96 z" />
+</vector>
