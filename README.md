@@ -26,7 +26,8 @@ unit-tested. Device-level verification is tracked as an open item (see
 
 * JDK 17
 * Android SDK with **Platform 36** and **Build-Tools 36.0.0** (`compileSdk = 36`, `minSdk = 23`)
-* Gradle 8.13 (wrapper included)
+* Gradle 8.13 (wrapper scripts are included; the wrapper JAR is **not** committed —
+  see *Known limitations* #8, or use an installed Gradle 8.13)
 
 ## Build the app
 
@@ -138,7 +139,7 @@ half-apply), and the preview and the exporter consume one shared mapping
 * **AndroidX Media3** (Apache-2.0) — playback, `Transformer` rendering pipeline
 * **Jetpack Compose / Material 3** (Apache-2.0)
 * **kotlinx-coroutines** (Apache-2.0)
-* **JUnit 4** and **org.json** (test-only)
+* **JUnit 4** and `org.json` (test-only)
 
 No API keys, signing material or other secrets are stored in this repository or
 embedded in the APK. The app itself declares no permissions — editing is local.
